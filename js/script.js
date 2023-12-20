@@ -5,7 +5,7 @@ const secondsEl = document.querySelector("#seconds");
 
 
 
-const newYear = "1 Jan 2024";
+const newYear = "23 July 2024";
 
 function countDown() {
     const newYearDate = new Date(newYear);
