@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-image: url(/img/stars.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdownd-container {
+    display: flex;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: -10rem;
+
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+
+
+.countdownd-el {
+    text-align: center;
+}
+
+.countdownd-el span {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
